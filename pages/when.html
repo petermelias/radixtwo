@@ -1,5 +1,7 @@
 <%inherit file="templates/scaffold.mako" />
+
 <%namespace name="nav" file="templates/navigation.mako"/>
+<%namespace name="gt" file="templates/green-text.mako" />
 
 
 <%block name="top_nav">
@@ -34,4 +36,10 @@ ${nav.top_nav_gen('when')}
 		</ol>
 	</div>
 </div>
+</%block>
+
+<%block name="greentext">
+<p>
+	${gt.green_text(3)}
+</p>
 </%block>
