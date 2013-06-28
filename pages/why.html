@@ -1,7 +1,15 @@
 <%inherit file="templates/scaffold.mako" />
+
 <%namespace name="nav" file="templates/navigation.mako"/>
+<%namespace name="gt" file="templates/green-text.mako" />
 
 
 <%block name="top_nav">
 ${nav.top_nav_gen('why')}
+</%block>
+
+<%block name="greentext">
+<p>
+	${gt.green_text(5)}
+</p>
 </%block>
