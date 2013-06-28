@@ -1,5 +1,7 @@
 <%inherit file="templates/scaffold.mako" />
+
 <%namespace name="nav" file="templates/navigation.mako"/>
+<%namespace name="gt" file="templates/green-text.mako" />
 
 
 <%block name="top_nav">
@@ -37,7 +39,50 @@ ${nav.top_nav_gen('what')}
 			</div>
 		</div>
 		<div class="row">
-			
+			<div class="span4">
+				<h5>Firearms</h5>
+				<ul class="unstyled things">
+					<li>Springfield XD 9mm</li>
+					<li>Remmington Model 512</li>
+					<li>DPMS AR15 Panther x2</li>
+					<li>FN Herstal 5.7x28mm Pistol</li>
+					<li>(coming soon) Remmington Model 700</li>
+					<li>(coming soon) Mossberg 500</li>
+				</ul>
+			</div>
+			<div class="span4 offset1">
+				<h5>Music</h5>
+				<ul class="unstyled things">
+					<li>The Doors</li>
+					<li>The Crystal Method</li>
+					<li>AC/DC</li>
+					<li>Infected Mushroom</li>
+					<li>Iron Maiden</li>
+					<li>Armin van Buuren - ASOT</li>
+					<li>Nightwish</li>
+					<li>Sonata Arctica</li>
+					<li>Glitch Mob</li>
+					<li>Nero</li>
+					<li>Posthumous</li>
+					<li>Daft Punk</li>
+					<li>Wolfgang Amadeus Mozart</li>
+					<li>The Red Army Choir - (Don't judge till you listen)</li>
+					<li>Luciano Pavorotti</li>
+					<li>Transiberian Orchestra</li>
+					<li>Prague Philharmonic Orchestra</li>
+					<li>Deadmau5</li>
+					<li>Bass Hunter</li>
+					<li>Shiny Toy Guns</li>
+					<li>...lots more</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </div>
+</%block>
+
+<%block name="greentext">
+<p>
+	${gt.green_text(2)}
+</p>
 </%block>

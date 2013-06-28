@@ -38,11 +38,7 @@
 
 				<div class="row subtext" style="position:relative;">
 					<div class="span3" style="position:absolute;">
-						<%block name="greentext">
-						<p>
-							${gt.green_text(1)}
-						</p>
-						</%block>
+						<%block name="greentext" />
 					</div>
 				</div>
 
