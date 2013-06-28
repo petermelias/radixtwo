@@ -1,0 +1,158 @@
+* {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	color: #333;
+	
+}
+
+a, li a {
+	text-decoration: none;
+	color: #31573D;
+}
+
+a:visited, li a:visited {
+	color: #003B13;
+	text-decoration: none;
+}
+
+a:hover, li a:hover {
+	color: #63B07B;
+	text-decoration: none;
+}
+
+/* Supplemental Bootstrap Classes */
+
+.center {
+	float: none;
+	margin: 0 auto;
+}
+
+div.container {
+	width: 100%;
+	min-height:100%;
+	background-color: #FAECD2;
+}
+
+div.main-frame {
+	background-color: rgba(255, 255, 255, .25);
+	margin:0 auto;
+	padding: 0px 25px 25px 25px;
+	min-height:100%;
+	
+}
+
+div.logo {
+	padding: 45px 0px 0px 0px;
+}
+
+span.logo-text {
+	color: rgba(0, 0, 0, .75);
+	text-shadow: 0px, 2px, 3px, rgba(255, 255, 255, 1);
+	font-size: 64px;
+	font-weight: bold;
+}
+
+span.radix-x {
+	margin-left: -6px;
+	color: rgba(0, 0, 0, .75);
+	text-shadow: 0px, 2px, 3px, rgba(255, 255, 255, 1);
+	font-size: 64px;
+	font-weight: bold;
+}
+
+span.base-two {
+	font-size: 37px;
+	color: rgba(0, 0, 0, .65);
+	color: #31573D;
+	text-shadow: 0px, 2px, 3px, rgba(255, 255, 255, 1);
+}
+
+div.top-nav {
+	padding: 15px 0px 0px 0px;
+}
+
+
+div.header-line {
+	position: absolute;
+	top: -19px;
+	left: 161px;
+	height: 2px;
+	width: 83%;
+	background-color: rgba(0, 0, 0, .65);
+}
+
+span.dot {
+	position: absolute;
+	font-size: 20px;
+	left: 155px;
+	top: -24px;
+}
+
+ul.top-nav li {
+	text-align: center;
+	padding: 10px 15px 12px 15px;
+	border: 2px solid rgba(255, 255, 255, .25);
+	border-bottom: none;
+}
+
+ul.top-nav li:hover {
+	border-top: 2px solid #31573D;
+}
+
+ul.top-nav li.active {
+	border-top: 2px solid #555;
+	border-bottom: none;
+	background-color: rgba(0, 0, 0, .40);
+}
+
+ul.top-nav li a:hover {
+	color: #333;
+}
+
+ul.top-nav li.active a {
+	color: #FAECD2;
+}
+
+ul.top-nav li a {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+span.li-first-letter {
+	color: #31573D;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+div.content {
+	padding: 30px 0px 0px 3px;
+}
+
+div.content p {
+	font-weight: normal;
+}
+
+div.subtext div p {
+	padding-top: 15px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, .55);
+	text-shadow: 0px 1px 1px white;
+}
+
+hr {
+	border-bottom-color: rgba(16, 30, 28, .50);
+}
+
+ul.home-page-faqs li {
+	padding-bottom: 8px;
+	font-size: 14px;
+}
+
+ul.home-page-faqs li a {
+	font-size: 14px;
+}
+
+ul.things li {
+	font-size: 12px;
+}
